@@ -1,0 +1,21 @@
+<ion-view view-title="মূল পাতা">
+  <ion-content>
+      <div class="item item-image image-homepage">
+         <img src="../img/bismillah.png" alt="Bismillah"/>
+      </div>
+    <ion-list>
+      <div class="list">
+            <a class="item item-icon-left" href="#/app/books">
+                <i class="icon ion-ios-paper-outline"></i>
+                 বই  
+                <span class="badge badge-assertive">{{ booksLength +' '+'টি' }}</span>
+            </a>
+            <a class="item item-icon-left" href="#/app/hadiths">
+                <i class="icon ion-ios-color-wand"></i>
+                 হাদসি
+                <span class="badge badge-assertive">{{ hadithsLength +' '+'টি' }}</span>
+            </a>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>

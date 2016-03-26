@@ -1,0 +1,8 @@
+/* Empty. Add your own CSS if you like */
+.item.item-image.image-homepage img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ion-list.disable-user-behavior p {
+    padding: 10px;
+}

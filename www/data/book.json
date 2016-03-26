@@ -1,0 +1,58 @@
+{
+    "books": [
+        {
+            "id": 0,
+            "name": "Book1",
+            "chapters":[
+                {
+                  "chapter":1,
+                  "chapterText":"chapter1Text"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Book2",
+            ,
+            "chapters":[
+                {
+                  "chapter":1,
+                  "chapterText":"chapter1Text"
+                },
+                {
+                  "chapter":2,
+                  "chapterText":"chapter1Text"
+                },
+                {
+                  "chapter":3,
+                  "chapterText":"chapter1Text"
+                }
+            ]
+        }
+        ,
+        {
+            "id": 2,
+            "name": "Book3",
+             ,
+            "chapters":[
+                {
+                  "chapter":1,
+                  "chapterText":"chapter1Text"
+                },
+                {
+                  "chapter":2,
+                  "chapterText":"chapter1Text"
+                },
+                {
+                  "chapter":3,
+                  "chapterText":"chapter1Text"
+                }
+                ,
+                {
+                  "chapter":4,
+                  "chapterText":"chapter1Text"
+                }
+            ]
+        }
+    ]
+}

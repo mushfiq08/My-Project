@@ -1,0 +1,13 @@
+<ion-view view-title="">
+  <ion-content>
+    <ion-list>
+        <div class="list">
+            <a class="item item-icon-left item-icon-right" ng-repeat="hadith in hadiths" href="#/app/hadiths/{{hadith.id}}">
+                <i class="icon ion-ios-color-wand-outline"></i>
+                {{hadith.name}} {{hadith.id+1}} 
+                <i class="icon ion-ios-arrow-right"></i>
+            </a>
+        </div>
+    </ion-list>
+  </ion-content>
+</ion-view>

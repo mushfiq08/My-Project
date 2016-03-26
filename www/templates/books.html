@@ -1,0 +1,13 @@
+<ion-view view-title="বই">
+    <ion-content>
+        <ion-list>
+            <div class="list">
+                <a class="item item-icon-left item-icon-right" ng-repeat="book in books" href="#/app/books/{{book.id}}">
+                    <i class="icon ion-ios-list-outline"></i>
+                    {{book.name}}
+                    <i class="icon ion-ios-arrow-right"></i>
+                </a>
+            </div>
+        </ion-list>
+    </ion-content>
+</ion-view>

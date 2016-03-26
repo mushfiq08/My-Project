@@ -1,0 +1,13 @@
+<ion-view view-title="চ্যাপটার">
+  <ion-content>
+     <ion-list>
+         <div class="list">
+                <a class="item item-icon-left item-icon-right" ng-repeat="chapterNumber in book.chapters" href="#/app/books/{{book.id}}/{{chapterNumber.chapter}}">
+                    <i class="icon ion-ios-photos-outline"></i>
+                    চ্যাপটার  {{chapterNumber.chapter + 1}}
+                    <i class="icon ion-ios-arrow-right"></i>
+                </a>
+            </div>
+    </ion-list>
+  </ion-content>
+</ion-view>
